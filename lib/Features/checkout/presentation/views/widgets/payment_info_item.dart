@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:stripe_paypal_payment/core/utils/styles.dart';
 
@@ -10,15 +9,8 @@ class PaymentItemInfo extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(
-          title,
-          textAlign: TextAlign.center,
-          style: Styles.style18,
-        ),
-        Text(
-          value,
-          style: Styles.styleBold18,
-        )
+        Text(title, textAlign: TextAlign.center, style: Styles.style18),
+        Text(value, style: Styles.styleBold18),
       ],
     );
   }

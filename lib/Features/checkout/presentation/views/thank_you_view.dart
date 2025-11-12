@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:stripe_paypal_payment/Features/checkout/presentation/views/widgets/thank_you_view_body.dart';
 import 'package:stripe_paypal_payment/core/widgets/cutom_app_bar.dart';
@@ -11,7 +10,9 @@ class ThankYouView extends StatelessWidget {
     return Scaffold(
       appBar: buildAppBar(),
       body: Transform.translate(
-          offset: const Offset(0, -16), child: const ThankYouViewBody()),
+        offset: const Offset(0, -16),
+        child: const ThankYouViewBody(),
+      ),
     );
   }
 }

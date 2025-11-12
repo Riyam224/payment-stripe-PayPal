@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:stripe_paypal_payment/Features/checkout/presentation/views/widgets/payment_details_view_body.dart';
 import 'package:stripe_paypal_payment/core/widgets/cutom_app_bar.dart';
